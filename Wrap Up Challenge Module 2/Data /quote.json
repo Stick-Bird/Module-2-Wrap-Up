@@ -1,0 +1,24 @@
+[{
+    "name" : "Wayne Gretzky",
+    "image" : "ambition",
+    "quote" : ["You miss one hundred percent of the shots you don't take.", "When you win, say nothing, when you lose say less", "I skate to where the puck is going to be, not where it has been"
+    ]},
+    
+    {
+    "name" : "Charles Swindoll",
+    "image" : "reflect",
+    "quote" : ["Anything under God's control is never out of control", "Life is 10% what happens to you and 90% how you react to it", "We are all faced with a series of great opportunities brilliantly disguised as impossible situations."]
+    
+    },
+    
+    {
+    "name" : "Henry David Thoreau",
+    "image" : "calm",
+    "quote" : ["Rather than love, than money, than fame, give me truth", "It's not what you look at that matters, it's what you see", "To affect the quality of the day, that is the highest of arts."]
+    },
+    
+    {
+    "name" : "George Addair",
+    "image" : "focus",
+    "quote" : ["Everything you ever wanted is on the other side of fear", "It is such a mysterious place, the land of tears", "It is so much easier to be enthusiastic than to reason"]
+}]
