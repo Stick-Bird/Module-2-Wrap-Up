@@ -17,14 +17,15 @@ struct QuoteView: View {
         NavigationView {
             ScrollView {
                 
-                    NavigationLink {
-                        DetailedQuoteView()
-                        
-                    } label: {
-                        
                 VStack (alignment: .leading, spacing: 20) {
                     
-                        ForEach (model.quotes) { a in
+                    ForEach (model.quotes) { a in
+                    
+                    NavigationLink {
+                        DetailedQuoteView(Quote : a)
+                        
+                    } label: {
+                    
                             ZStack {
                             
                             Image (a.image)

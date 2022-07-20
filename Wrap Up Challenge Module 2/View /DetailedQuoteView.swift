@@ -15,18 +15,18 @@ struct DetailedQuoteView: View {
         
         // If no meditation set, can't display detail
         
-       if let quote1 = quote{
+       if let author = quote{
         
             VStack(alignment: .leading, spacing: 20.0) {
                
                 
                 // Author name
-                Text(quote1.name)
+                Text(author.name)
                     .font(.largeTitle)
                     .fontWeight(.bold)
                 
                 // Quotes
-                ForEach (quote1.quote, id: \.self) { q in
+                ForEach (author.quote, id: \.self) { q in
                     Text(q)
                 }
             
